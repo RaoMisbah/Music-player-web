@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/78a9c548ce.js" crossorigin="anonymous"></script>
+  <title>Web Music Player</title>
+</head>
+<body>
+  <div id="music-player">
+    <h1 id="head">Web Music Player</h1>
+    <div id="playlist">
+      <h2 id="top">Playlist</h2>
+      <ul id="playlist-list">
+        
+        <li data-src="music/BENZ.mp3">Benz </li>
+        <li data-src="music/ritviz.mp3">Khamoshi</li>
+        <li data-src="music/Secrets.mp3">Secrets</li>
+        <li data-src="music/just.mp3">just cry no cues</li>
+        <li data-src="music/Psycho.mp3">Psycho </li>
+        
+      </ul>
+    </div>
+    <audio id="audio-player" controls>
+      Your browser does not support the audio element.
+    </audio>
+    <div id="controls">
+      <button id="play-btn">Play</button>
+      <button id="pause-btn">Pause</button>
+      <button id="skip-btn">Next Song</button>
+      <input type="range" id="volume-slider" value="100" max="100">
+    </div>
+    <div class="social-icon">
+      <a href="https://www.facebook.com/misbahrao.misbahrao.7"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://twitter.com/RaoMisbah7?t=JdUCHXO74XVRvVClKlQUxg&s=09"><i class="fa-brands fa-square-x-twitter"></i></a>
+      <a href="https://instagram.com/raomisbah7?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram"></i></a>
+      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+  </div>
+  </div>
+  <script src="java.js"></script>
+</body>
+</html>
